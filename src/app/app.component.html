@@ -1,21 +1,51 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+  <!-- <app-todos></app-todos>   -->
 
-<router-outlet></router-outlet>
+  <app-zippy title="Shipping Address">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit semper suscipit. Etiam vulputate leo orci, a maximus libero commodo eget. Aliquam convallis interdum turpis. Maecenas sagittis at ante at cursus. Pellentesque purus risus, viverra in justo efficitur, rutrum tempus odio. Suspendisse euismod congue varius. Integer quis dolor sit amet nisl pulvinar ultricies.
+    </p>
+    <p>
+      Maecenas quam purus, pretium vel fringilla non, porta a risus. Aenean ornare ex erat, a posuere nulla auctor et. Pellentesque imperdiet augue nec sem dictum vulputate. Morbi sodales, dui et maximus interdum, lectus mi pellentesque nisi, eget mattis est est quis augue. Ut id venenatis mauris. Quisque nec dignissim nisi, vitae semper nulla. Fusce laoreet diam neque, vitae consectetur enim imperdiet et.
+    </p>
+  </app-zippy>   
+
+
+
+
+
+
+
+
+
+<!-- <input type="text" (keyup.enter)="add(course)" #course>
+
+<div *ngIf="coursesKey$">
+  <ul>
+    <li *ngFor="let course of coursesKey$ | async">
+      {{ course.value }}
+      <button class="btn btn-primary" (click)="update(course.key,course.value)">Update</button>
+      <button (click)="deleteItem(course.key)">Delete</button>
+    </li>
+  </ul>
+</div> -->
+
+<!-- <div *ngIf="authors$">
+  <ul *ngFor="let author of (authors$ | async)">
+    <li >
+      {{ author.Name }}
+    </li>
+    <li>
+      {{ author.Students }}
+    </li>
+  </ul>
+</div> -->
+
+<!-- <ul>
+    <li *ngFor="let item of coursesKey$ | async">
+      <input type="text" #updatetext [value]="item.text" />
+      <button (click)="updateItem(item.key, updatetext.value)">Update</button>
+      <button (click)="deleteItem(item.key)">Delete</button>
+    </li>
+  </ul> -->
+
+  
